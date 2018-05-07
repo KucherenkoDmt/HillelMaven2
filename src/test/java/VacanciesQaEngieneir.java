@@ -21,7 +21,6 @@ public class VacanciesQaEngieneir {
 
 
     @Before
-
     public void setUp() {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -30,9 +29,6 @@ public class VacanciesQaEngieneir {
         dneprVaCnation = new ArrayList<>();
         cityesForTest = new ArrayList<>();
         lvivVaCantion = new ArrayList<>();
-      /*  cityesForTest.add("Днепр");
-        cityesForTest.add("Киев");
-        cityesForTest.add("Львов");*/
     }
 
     @Test
