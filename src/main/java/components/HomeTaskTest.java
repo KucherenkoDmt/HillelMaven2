@@ -152,9 +152,9 @@ public class HomeTaskTest {
         .withParam("name", "value")
         .build();
     }
-    /*  @Test
+      @Test
         public void hillelExample (){
-            final String commentText = "Comment Text";
+           /* final String commentText = "Comment Text";
             final int commentNumber = ThreadLocalRandom.current().nextInt(50, 999);
             final boolean isActive = false;
 
@@ -173,9 +173,9 @@ public class HomeTaskTest {
             pageObject.categorySelector().availableCats().categories().get(0).checkBox().check();
 
             pageObject.categorySelector().selectButtons().add().click();
+*/
 
-
-        }*/
+        }
 
     @After
     public void tearDown() {

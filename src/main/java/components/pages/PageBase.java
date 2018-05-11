@@ -33,6 +33,7 @@ public class PageBase implements Getter {
     public WebElement getElement(String xpath) {
         return driver.findElement(By.xpath(xpath));
     }
+
     public boolean checkPageIsOpened(){
         return driver.getCurrentUrl().contains(getExpectedUrl()) && driver.getTitle().contains(getExpectedTitle());
     }

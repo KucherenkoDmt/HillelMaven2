@@ -21,5 +21,4 @@ public class HeaderButtonsOfNewCommentPage extends ElementBase {
     public ElementBase returnButton() {
         return new ElementBase(getElement("//div[@id='logindisplay']/a"));
     }
-
 }

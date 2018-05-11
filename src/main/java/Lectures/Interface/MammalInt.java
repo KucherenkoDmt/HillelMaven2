@@ -8,14 +8,19 @@ public class MammalInt implements Animal{
     public void travel(){
         System.out.println("Mammal travels");
     }
+
+
     public int noOfLegs(){
         return 0;
     }
+
     public static void main(String args[]){
         MammalInt m = new MammalInt();
         m.eat();
         m.travel();
         a.eat();
         a.travel();
+        a.defoult();
+        m.defoult();
     }
 }
