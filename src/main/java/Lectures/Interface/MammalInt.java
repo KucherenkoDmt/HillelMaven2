@@ -20,7 +20,8 @@ public class MammalInt implements Animal{
         m.travel();
         a.eat();
         a.travel();
-        a.defoult();
-        m.defoult();
+
+
+
     }
 }

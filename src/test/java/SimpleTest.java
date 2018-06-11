@@ -8,6 +8,8 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class SimpleTest {
+
+
     @Test
     public void simpleValidation(){
         Assert.assertEquals(7, 4+3);
