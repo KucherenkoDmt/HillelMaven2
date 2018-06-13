@@ -2,6 +2,8 @@ import HomeWork.Log.ConsoleLogger;
 import HomeWork.Log.Logger;
 import org.junit.Test;
 import org.junit.Assert;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -40,6 +42,14 @@ log("выа");
     private void log(String stringToLog) throws IOException {
         Logger logger = new ConsoleLogger();
         logger.log(stringToLog);
+    }
+
+    @FindBy(xpath = "//input[@value='Create']")
+private WebElement createButton;
+
+    @Test
+    public void dfTest() {
+
     }
 
 }

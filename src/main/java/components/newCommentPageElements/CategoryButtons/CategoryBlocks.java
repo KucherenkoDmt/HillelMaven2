@@ -15,6 +15,7 @@ public class CategoryBlocks extends ElementBase {
     public ElementBase headerLabel(){
         return new ElementBase(getElement("//div[@class='category-list-title']"));
     }
+
     public List<CheckBoxWithLabel> categories(){
         List<WebElement> webElements = getElements("//div");
         List<CheckBoxWithLabel> toReturn = new ArrayList<>();

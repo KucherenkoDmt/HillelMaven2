@@ -26,7 +26,6 @@ public class NewCommentPage extends PageBase{
         return new HeaderButtonsOfNewCommentPage(getElement("//div[@id='editor-navigation']"));
     }
 
-
     @Override
     public String getExpectedUrl() {
         return super.getExpectedUrl() + this.relativePath;

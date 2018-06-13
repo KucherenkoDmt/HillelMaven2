@@ -2,6 +2,7 @@ package components.newCommentPageElements.HeadersOfNewCommentPage;
 
 import components.ElaementBaseClasses.ElementBase;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class HeaderButtonsOfNewCommentPage extends ElementBase {
 
@@ -21,4 +22,6 @@ public class HeaderButtonsOfNewCommentPage extends ElementBase {
     public ElementBase returnButton() {
         return new ElementBase(getElement("//div[@id='logindisplay']/a"));
     }
+    @FindBy(xpath =  "")
+    public WebElement someElement;
 }
